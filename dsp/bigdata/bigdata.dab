@@ -1,0 +1,17 @@
+{
+  "Services": {
+    "master": {
+      "Image": "0.0.0.0:5000/owen/etcd@sha256:3e6567111ab50b2714fb02cfdc2041a23c6137630d13f647420842d8a79a690a", 
+      "Networks": [
+        "default"
+      ], 
+      "Ports": [
+        {
+          "Port": 80, 
+          "Protocol": "tcp"
+        }
+      ]
+    }
+  }, 
+  "Version": "0.1"
+}

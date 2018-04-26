@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  master:
+    image: 192.168.123.251/daocloud/dao-2048:latest
+
+
